@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-home {
+  max-width: 55%;
+  align-items: center;
+}
+
+li {
+	margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: url("./assets/tick.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
