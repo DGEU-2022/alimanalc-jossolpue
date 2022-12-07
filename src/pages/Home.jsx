@@ -7,62 +7,81 @@ import fondo3 from '../assets/fondo3.webp';
 function CarrouselHome() {
 
     return (
-            <Carousel variant="dark">
-                <Carousel.Item>
-                    <div
+        <Carousel variant="dark">
+            <Carousel.Item>
+                <div
                     class="d-block w-100 bg-secondary d-flex justify-content-center align-items-center"
                     style={{ height: "400px" }}
-                    >
+                >
                     <Image src={fondo1} fluid />
-                    </div>
-                    <Carousel.Caption>
-                    <h2>First slide label</h2>
+                </div>
+                <Carousel.Caption>
+                    <h2>Compañerismo</h2>
                     <p>
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Este es uno de los principales pilares en los que me baso a la hora de trabajar, saber crear un buen ambiente mejora la productividad y la calidad del trabajo.
                     </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <div
                     class="d-block w-100 bg-secondary d-flex justify-content-center align-items-center"
                     style={{ height: "400px" }}
-                    >
+                >
                     <Image src={fondo2} fluid />
-                    </div>
+                </div>
 
-                    <Carousel.Caption>
-                    <h2>Second slide label</h2>
+                <Carousel.Caption>
+                    <h2>Creatividad</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Destaco por mis soluciones innovadoras, así como de poder ofrecer un enfoque fresco y joven.
                     </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <div
                     class="d-block w-100 bg-secondary d-flex justify-content-center align-items-center"
                     style={{ height: "400px" }}
-                    >
+                >
                     <Image src={fondo3} fluid />
-                    </div>
+                </div>
 
-                    <Carousel.Caption>
-                    <h2>Third slide label</h2>
+                <Carousel.Caption>
+                    <h2>Crecimiento continuo</h2>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl
-                        consectetur.
+                        Me encanta aprender tecnologías y metodologías nuevas, estoy abierta al cambio y eso hace que pueda dar opiniones fundamentadas en el conocimiento.
                     </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-        )
-    }
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+    )
+}
 
 
 function Home() {
-    return  (
+    return (
         <div>
-           <CarrouselHome/>
-           <center><h1>¿Que es lo que busco de una empresa?</h1></center>
+            <CarrouselHome />
+            <br></br>
+            <br></br>
+            <div class="container-home container">
+                <center><h1>¿Qué es lo que busco de una empresa?</h1></center>
+                <br></br>
+                <br></br>
+                <center><p>En mi día a día me encuentro con una gran cantidad de empresas que me preguntan sobre qué es lo que busco en una empresa, por lo que esto sería una lista de imprescindibles que debe cumplir para poder plantearme la posibilidad de cambiar de trabajo, si estás leyendo esto y eres un trabajador de recursos humanos por favor verifica que se cumplen las condiciones antes de contactar conmigo, esto ahorrará a ambos mucho tiempo.</p></center>
+                <div>
+                    <ul>
+                        <li>Teletrabajo 🏠</li>
+                        <li>Horario flexible ⌚</li>
+                        <li>Seguro médico 🏥</li>
+                        <li>24 días de vacaciones 🏖️</li>
+                        <li>45K/año 💰</li>
+                    </ul>
+                </div>
+                <br></br>
+                <br></br>
+
+            </div>
+
         </div>
     );
 }

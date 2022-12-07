@@ -20,3 +20,26 @@ code {
 .lastCard {
   padding-bottom: 50px;
 }
+
+.container-home {
+  max-width: 55%;
+  align-items: center;
+}
+
+li {
+	margin: 0;
+	padding: 10px 0 10px 54px;
+	list-style: none;
+	background-image: url("./assets/tick.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+
+p {
+  text-align: justify;
+}
+
+.image-fluid {
+  height: 200%;
+}
