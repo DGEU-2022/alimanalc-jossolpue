@@ -15,11 +15,11 @@ function App() {
     <Header/>
 
       <Routes>
-        <Route path="/academycs" component={Academycs}/>
-        <Route path="/professional-exp" component={ExpProfessional}/>
-        <Route path="/why-me" component={WhyMe}/>
-        <Route path="/contact-me" component={ContactMe}/>
-        <Route path="/" component={Home} />
+        <Route path="./academycs" component={Academycs}/>
+        <Route path="./professional-exp" component={ExpProfessional}/>
+        <Route path="./why-me" component={WhyMe}/>
+        <Route path="./contact-me" component={ContactMe}/>
+        <Route path="./" component={Home} />
         <Route path="*" element={<Redirect />} />
       </Routes>
 
