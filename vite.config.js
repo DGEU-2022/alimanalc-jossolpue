@@ -3,7 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [solidPlugin()],
-  base: "./",
+  base: "./alimanalc-jossolpue/",
   server: {
     port: 3000,
   },
