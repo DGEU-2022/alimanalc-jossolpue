@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.formationCardImg {
+  max-height: 180px;
+  margin-top: 10px;
+}
+
+.lastCard {
+  padding-bottom: 50px;
+}
