@@ -1,7 +1,7 @@
 import { lazy } from "solid-js";
 import { Routes,Route } from 'solid-app-router'
-import { Container } from 'solid-bootstrap'
 import Header from "./components/Header"
+import Redirect from "./components/Redirect";
 
 const Academycs = lazy(() => import("./pages/Academycs"));
 const Home = lazy(() => import("./pages/Home"));
@@ -15,11 +15,12 @@ function App() {
     <Header/>
 
       <Routes>
-        <Route path="/" component={Home} />
         <Route path="/academycs" component={Academycs}/>
         <Route path="/professional-exp" component={ExpProfessional}/>
         <Route path="/why-me" component={WhyMe}/>
         <Route path="/contact-me" component={ContactMe}/>
+        <Route path="/" component={Home} />
+        <Route path="*" element={<Redirect />} />
       </Routes>
 
   </>);
