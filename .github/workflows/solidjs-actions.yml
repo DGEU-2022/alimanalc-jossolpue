@@ -2,7 +2,7 @@ name: SolidJs CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main,actions ]
 
 jobs:
   build:
