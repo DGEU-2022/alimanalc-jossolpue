@@ -1,0 +1,1 @@
+import{c as r,f as e}from"./index.6c82f224.js";import{R as t}from"./Row.ca088b62.js";import{I as o}from"./Image.60f1ec21.js";function i(){return r(e,{get children(){return r(t,{get children(){return r(o,{style:{"max-height":"800px","margin-top":"25px"},src:"",rounded:!0})}})}})}export{i as default};
