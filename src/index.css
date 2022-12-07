@@ -19,10 +19,18 @@ code {
 
 li {
 	margin: 0;
-	padding: 36px 0 36px 84px;
+	padding: 10px 0 10px 54px;
 	list-style: none;
 	background-image: url("./assets/tick.png");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
+}
+
+p {
+  text-align: justify;
+}
+
+.image-fluid {
+  height: 200%;
 }
