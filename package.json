@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "watch": "vite build --watch"
+    "watch": "vite build --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "license": "MIT",
   "devDependencies": {
@@ -15,8 +17,10 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "solid-app-router": "^0.4.2",
     "solid-bootstrap": "^1.0.11",
     "solid-js": "^1.5.1"
-  }
+  },
+  "homepage": "https://dgeu-2022.github.io/"
 }
