@@ -5,12 +5,12 @@ function Header() {
     <>
       <Navbar expand="lg" bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="/alimanalc-jossolpue">
             <img alt="" src="https://raw.githubusercontent.com/DGEU-2022/alimanalc-jossolpue/7d24abec7a5797c5b45feb3b4d665a54d3817e44/src/assets/logo_universidad.svg" width="90" height="90" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse class="justify-content-end">
-            <Nav.Link href="/#" class="rightBorderGray">
+            <Nav.Link href="/alimanalc-jossolpue/" class="rightBorderGray">
               Inicio
             </Nav.Link>
             <Nav.Link href="./academycs" class="rightBorderGray">
