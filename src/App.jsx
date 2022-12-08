@@ -19,6 +19,7 @@ function App() {
         <Route path="alimanalc-jossolpue/professional-exp" component={ExpProfessional}/>
         <Route path="alimanalc-jossolpue/why-me" component={WhyMe}/>
         <Route path="alimanalc-jossolpue/contact-me" component={ContactMe}/>
+        <Route path="alimanalc-jossolpue/" component={Home} />
         <Route path="alimanalc-jossolpue" component={Home} />
         <Route path="*" element={<Redirect />} />
       </Routes>
