@@ -13,16 +13,16 @@ function Header() {
             <Nav.Link href="/alimanalc-jossolpue/" class="rightBorderGray">
               Inicio
             </Nav.Link>
-            <Nav.Link href="./academycs" class="rightBorderGray">
+            <Nav.Link href="/alimanalc-jossolpue/academycs" class="rightBorderGray">
               Fromación Académica
             </Nav.Link>
-            <Nav.Link href="./professional-exp" class="rightBorderGray">
+            <Nav.Link href="/alimanalc-jossolpue/professional-exp" class="rightBorderGray">
               Exp. Profesional
             </Nav.Link>
-            <Nav.Link href="./why-me" class="rightBorderGray">
+            <Nav.Link href="/alimanalc-jossolpue/why-me" class="rightBorderGray">
               ¿Por qué yo?
             </Nav.Link>
-            <Nav.Link href="./contact-me" class="rightBorderGray">
+            <Nav.Link href="/alimanalc-jossolpue/contact-me" class="rightBorderGray">
               Contáctame
             </Nav.Link>
             <Nav.Link id="google_translate_element"></Nav.Link>
