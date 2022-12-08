@@ -14,7 +14,7 @@ function Header() {
               Inicio
             </Nav.Link>
             <Nav.Link href="./academycs" class="rightBorderGray">
-              Fromación Académica
+              Formación Académica
             </Nav.Link>
             <Nav.Link href="./professional-exp" class="rightBorderGray">
               Exp. Profesional
