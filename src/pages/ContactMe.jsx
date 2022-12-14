@@ -4,12 +4,22 @@ import { Form, Button, Container, Row } from "solid-bootstrap";
 const emptyContactForm = { from: "", subject: "", body: "" };
 const [getContactForm, setContactForm] = createSignal(emptyContactForm);
 const emailAlicia = "amanzanoalcaide@gmail.com"
+const [getEmail, setEmail] = createSignal(emailAlicia);
 
 function ContactMe() {
   return (
     <Container style={{ "max-width": "40%", "margin-top": "15px" }}>
       <Form>
         <Form.Group class="mb-3" controlId="formBasicEmail">
+        <Form.Control
+            type="text"
+            placeholder="Asunto del contacto"
+            value={getEmail()}
+            id="emailAlicia"
+            onChange={(e) => {
+              setEmail(e.currentTarget.value);
+            }}
+          />
           <Form.Label>Tu Email</Form.Label>
           <Form.Control
             type="email"
@@ -59,10 +69,10 @@ function ContactMe() {
         </Form.Group>
 
         <Row>
-          <div class="col-md-12" style={{ "text-align": "right" }}>
+          <div class="col-md-12" style={{ "text-align": "right"}}>
             
             <a
-              href={`mailto:${emailAlicia}?cc=${
+              href={`mailto:${getEmail()}?cc=${
                 getContactForm().from
               }&subject=${getContactForm().subject}&body=${
                 getContactForm().body
