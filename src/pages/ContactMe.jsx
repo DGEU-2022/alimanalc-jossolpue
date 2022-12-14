@@ -3,6 +3,7 @@ import { Form, Button, Container, Row } from "solid-bootstrap";
 
 const emptyContactForm = { from: "", subject: "", body: "" };
 const [getContactForm, setContactForm] = createSignal(emptyContactForm);
+const emailAlicia = "amanzanoalcaide@gmail.com"
 
 function ContactMe() {
   return (
@@ -61,7 +62,7 @@ function ContactMe() {
           <div class="col-md-12" style={{ "text-align": "right" }}>
             
             <a
-              href={`mailto:amanzanoalcaide@gmail.com?cc=${
+              href={`mailto:${emailAlicia}?cc=${
                 getContactForm().from
               }&subject=${getContactForm().subject}&body=${
                 getContactForm().body
