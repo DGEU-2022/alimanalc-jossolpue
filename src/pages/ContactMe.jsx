@@ -61,7 +61,7 @@ function ContactMe() {
           <div class="col-md-12" style={{ "text-align": "right"}}>
             
             <a
-              style={{ "position":"absolute"}}
+              id="opcionA"
               href={`mailto:amanzanoalcaide@gmail.com?cc=${
                 getContactForm().from
               }&subject=${getContactForm().subject}&body=${
@@ -74,7 +74,7 @@ function ContactMe() {
               Enviar
             </a>
             <a
-              style={{ "visibility": "hidden"}}
+              id="opcionB"
               href={`mailto:alimanalc@alum.us.es?cc=${
                 getContactForm().from
               }&subject=${getContactForm().subject}&body=${

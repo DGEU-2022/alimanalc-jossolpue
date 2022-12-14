@@ -43,3 +43,11 @@ p {
 .image-fluid {
   height: 200%;
 }
+
+#opcionA {
+  position: absolute;
+}
+
+#opcionB {
+  visibility: hidden;
+}
